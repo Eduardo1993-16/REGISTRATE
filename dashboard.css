@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.section {
+    position: relative;
+    width: 300px;
+    height: 100vh;
+    background-color: #26ca;
+}
+
+
+.productos {
+    /* background-image: url('../img/fondo2.webp'); */
+    flex: 1;
+    margin: auto;
+    position: absolute;
+    right: 20px;
+    left: 300px;
+    top: 20px;
+    width: 70%;
+    height: 100vh;
+
+}
+
+
+.form-control {
+    display: flex;
+    width: 100px;
+    text-align: center;
+}
+
+.lista-productos {
+    display: block;
+    width: 20px;
+    height: 20px;
+}
+
+
+#tabla-productos {
+  margin-top: 50px;
+  width: 100%;
+}
+
+
+.btn-primary {
+    width: 300px;
+}
